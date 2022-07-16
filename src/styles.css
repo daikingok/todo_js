@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+.input_area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+}
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px;
+  outline: none;
+}
+.uncomp {
+  background-color: greenyellow;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+.comp {
+  background-color: yellowgreen;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 6px;
+  outline: none;
+}
+button:hover {
+  background-color: pink;
+}
+.list_row {
+  display: flex;
+}
+.title {
+  text-align: center;
+  margin-top: 0;
+}
+li {
+  margin: 8px;
+}
